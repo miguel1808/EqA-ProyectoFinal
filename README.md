@@ -1,7 +1,7 @@
 # EqA-ProyectoFinal:
 
 
-\n-Silva Barra, Ernesto Franco 
+'\n'-Silva Barra, Ernesto Franco 
 \n-Torres Rodriguez, Julian Sebastian 
 \n-Pasache Lopera, Luiggi Steep 
 \n-Otoya Chanamé, Miguel Antonio 
