@@ -1,11 +1,11 @@
 # EqA-ProyectoFinal:
 
 
--Silva Barra, Ernesto Franco 
--Torres Rodriguez, Julian Sebastian 
--Pasache Lopera, Luiggi Steep 
--Otoya Chanamé, Miguel Antonio 
--Tocto Mallqui, Alexis Ventura 
--Villanueva, Cristhofer Gonzales 
--Broncano, Jose Daniel  
--Pablo Mamani David, Alcides
+\n-Silva Barra, Ernesto Franco 
+\n-Torres Rodriguez, Julian Sebastian 
+\n-Pasache Lopera, Luiggi Steep 
+\n-Otoya Chanamé, Miguel Antonio 
+\n-Tocto Mallqui, Alexis Ventura 
+\n-Villanueva, Cristhofer Gonzales 
+\n-Broncano, Jose Daniel  
+\n-Pablo Mamani David, Alcides
