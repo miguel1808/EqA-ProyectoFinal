@@ -1,0 +1,15 @@
+streamlit==1.15.0
+seaborn==0.12.1
+plotly==5.11.0
+pandas==1.5.2
+joblib==1.2.0
+scikit-learn==1.2.0
+numpy==1.23.5
+spacy==3.4.0
+protobuf==3.19.0
+matplotlib==3.6.2
+tensorflow
+keras
+arrow==1.2.3
+click==8.1.3
+statistics
