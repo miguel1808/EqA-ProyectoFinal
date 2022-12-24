@@ -4,14 +4,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import os
 
 
 
 
 def app():
     st.title('Análisis Exploratorio de Datos')
-
-    archivo='result.xlsx'
+    
+    archivo=os.path.join('.','result.xlsx')
+    
     df=pd.read_excel(archivo,sheet_name='sheet1')
     st.write(df.head())
 
