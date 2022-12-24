@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home,EDA,transformacion,knn  # import your app modules here
+from apps import home,EDA,transformacion,knn,svc  # import your app modules here
 
 
 app = MultiApp()
@@ -13,6 +13,7 @@ st.title("""  #Inteligencia de negocios - Equipo A """)
 app.add_app('Home',home.app)
 app.add_app('Análisis Exploratorio de Datos',EDA.app)
 app.add_app('Transformación de datos',transformacion.app)
+app.add_app('SVC',svc.app)
 app.add_app('KNN',knn.app)
 
 
