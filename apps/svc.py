@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import sklearn.svm as SVC
+from sklearn.svm import SVC
 from sklearn.metrics import classification_report,confusion_matrix
 from sklearn.model_selection import train_test_split
 
@@ -34,7 +34,7 @@ def app():
     SVC_model.fit(X_train,y_train)
     st.code("""SVC_model = SVC(max_iter=55)""", language='python')
     st.code("""SVC_model.fit(X_train,y_train)""", language='python')
-    st.write('Modelo entrenado:' +SVC_model)
+    st.write('Modelo entrenado:' ,SVC_model)
 
 
     st.subheader('Predicciones y evaluacion')
