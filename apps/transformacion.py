@@ -5,8 +5,8 @@ import numpy as np
 
 def app():
     st.title('Transformacion de datos')
-    st.code('''df = pd.read_excel("result.xlsx", sheet_name='sheet1') ''', language='python')
-    df = pd.read_excel("result.xlsx", sheet_name='sheet1')
+    st.code('''df = pd.read_excel("./result.xlsx", sheet_name='sheet1') ''', language='python')
+    df = pd.read_excel("./result.xlsx", sheet_name='sheet1')
     st.write(df.head())
 
     

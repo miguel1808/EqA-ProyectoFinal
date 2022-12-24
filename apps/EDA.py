@@ -11,11 +11,7 @@ import os
 
 def app():
     st.title('Análisis Exploratorio de Datos')
-    filenames=os.listdir('.')
-    selected_filename=st.selectbox('Selecciona un archivo',filenames)
-    st.write('Has seleccionado: ',selected_filename)
-    archivo=os.path.join('.',selected_filename)
-    st.write(archivo)
+    archivo='./result.xlsx'
     df=pd.read_excel(archivo,sheet_name='sheet1')
     st.write(df.head())
 
