@@ -13,3 +13,4 @@ keras
 arrow==1.2.3
 click==8.1.3
 statistics
+openpyxl
